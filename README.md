@@ -11,7 +11,7 @@ This repository contains the replication package for the paper "Detecting Refact
 We have organized the replication package into two folders and five Python files:
 
 1. data: This folder contains all the data required to run the experiments.
-2. appendix: This folder includes additional information about the paper, such as the complete list of important features, results of all classifiers, and sensitivity analysis results.
+2. appendix: This folder includes additional information about the paper, such as the complete list of important features, results of all classifiers, results of the correlation analysis, keywords used to identify refactoring commits in the state-of-the-art approaches, and sensitivity analysis results.
 3. classification.py: This helper model is responsible for performing classification using different approaches.
 4. classifier.py: classifier.py: This model is responsible for training classifiers and obtaining classifier scores under different evaluation criteria.
 5. ensembleFusion.py: This model is responsible for generating the results of PRefScanner and PyRef and evaluating the ensembled model results.
